@@ -1,0 +1,26 @@
+{
+    "grid": {
+        "Lx": 4.0,
+        "Ly": 4.0,
+        "dx": 0.1,
+        "dt": 0.05
+    },
+    "physics_constants": {
+        "alpha": 1.0e-3,
+        "pressure": 101325,
+        "r_gas": 287.05,
+        "c_specific": 1005
+    },
+    "defaults": {
+        "temp_outdoor_C": -10,
+        "temp_start_C": 10,
+        "temp_thermostat_C": 21,
+        "radiator_power_W": 2000.0,
+        "simulation_hours": 2
+    },
+    "materials": {
+        "lambda_air": 0.026,
+        "lambda_wall": 0.5,
+        "lambda_window": 2.0
+    }
+}
