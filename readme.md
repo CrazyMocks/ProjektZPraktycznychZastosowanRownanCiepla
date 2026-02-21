@@ -52,6 +52,7 @@ pip install -r requirements.txt
 Uruchom interfejs webowy za pomocą Streamlit:
 
 ```bash
+cd pipeline/
 streamlit run app.py
 ```
 
